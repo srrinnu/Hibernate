@@ -1,0 +1,11 @@
+SessionFactory object class name::class org.hibernate.internal.SessionFactoryImpl
+Session object class name::class org.hibernate.internal.SessionImpl
+Tx object class name::class org.hibernate.engine.transaction.internal.TransactionImpl
+Hibernate: 
+    insert 
+    into
+        EMPLOYEE
+        (ENAME, EMAIL, SALARY, EID) 
+    values
+        (?, ?, ?, ?)
+Object saved(Record inserted)
